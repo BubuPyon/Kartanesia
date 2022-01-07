@@ -1,0 +1,735 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	background-color: #EC632D;
+	line-height: 75px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo p{
+	float: left;
+	color:#fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 32px;
+}
+nav ul li a:hover{
+	color:#65238D;
+}
+nav ul li .active{
+	color:#65238D;
+}
+nav ul .btn a{
+    
+position: absolute;
+width: 90px;
+height: 37px;
+left: 1253px;
+top: 17px;
+
+background: #2D2D2D;
+border-radius: 10px;
+font-family: Scheherazade;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 32px;
+/* identical to box height */
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+
+}
+
+#beranda{
+    height: 100vh;
+    background: url(img/banner.jpg);
+    background-size: cover;
+}
+.box{
+    background: #65238D;
+    position: relative;
+    width: 1080px;
+    height: 280px;
+    left: 150px;
+    top: 500px;
+    border-radius: 20px;
+    background: #65238D
+}
+.box p{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 122px;
+    top: 20px;
+    left: 500px;
+    width: 467px;
+    height: 150px;
+    color: #FFFFFF;
+}
+.box h1{
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 121.8%;
+    top : -30px;
+    left: 500px;
+    color: #FFFFFF;
+    height: 150px;
+    width: 467px;
+}
+
+#tim{
+    height: 100vh;
+    background-color: #EC632D;
+}
+.conta{
+    position: relative;
+    width: 128px;
+    height: 128px;
+    left: 173px;
+    top: 200px;
+
+    background: #5D5D5D;
+    border-radius: 1000px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.ine p{
+    position: relative;
+    width: 216px;
+    height: 88px;
+    left: 156px;
+    top: 200px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.ine h1{
+    position: relative;
+    width: 299px;
+    height: 150px;
+    left: 96px;
+    top: 190px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 121.8%;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.conti{
+    position: relative;
+    width: 128px;
+    height: 128px;
+    left: 503px;
+    top: -165px;
+
+    background: #5D5D5D;
+    border-radius: 1000px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.ina p{
+    position: relative;
+    width: 216px;
+    height: 88px;
+    left: 486px;
+    top: -170px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.ina h1{
+    position: relative;
+    width: 299px;
+    height: 150px;
+    left: 426px;
+    top: -176px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 121.8%;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.conte{
+    position: relative;
+    width: 128px;
+    height: 128px;
+    left: 823px;
+    top: -533px;
+
+    background: #5D5D5D;
+    border-radius: 1000px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.ini p{
+    position: relative;
+    width: 216px;
+    height: 88px;
+    left: 806px;
+    top: -540px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.ini h1{
+    position: relative;
+    width: 299px;
+    height: 150px;
+    left: 756px;
+    top: -543px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 121.8%;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.cont{
+    position: relative;
+    width: 128px;
+    height: 128px;
+    left: 1103px;
+    top: -655px;
+
+    background: #5D5D5D;
+    border-radius: 1000px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.inu p{
+    position: relative;
+    width: 216px;
+    height: 88px;
+    left: 1096px;
+    top: -665px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 88px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.inu h1{
+    position: relative;
+    width: 299px;
+    height: 150px;
+    left: 1046px;
+    top: -669px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 121.8%;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.inu{
+    height: 0vh;
+}
+.ini{
+    height: 0vh;
+}
+
+#solusi{
+    height: 100vh;
+    background: #65238D;
+}
+#solusi img{
+    width: 618px;
+    height: 570px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    border-radius: 20px;
+}
+#solusi p{
+    position: relative;
+    width: 136px;
+    height: 122px;
+    left: 951px;
+    top: -405px;
+    
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 122px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+}
+#solusi h1{
+    position: relative;
+    width: 502px;
+    height: 154px;
+    left: 829px;
+    top: -428px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 121.8%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+}
+
+#layanan{
+    height: 100vh;
+    background-color: #EC632D;
+}
+.bok{
+    border-radius: 20px;
+    position: relative;
+    width: 1221px;
+    height: 542px;
+    left: 71px;
+    top: 40px;
+
+    background: #65238D;
+}
+.card{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.car{
+    position: relative;
+    top: -195px;
+    left: 480px;
+}
+.ca{
+    position: relative;
+    top: -450px;
+    left: 880px;
+}
+.car-bod{
+    position: relative;
+    left: 200px;
+    background-color: #fff;
+}
+#produk{
+    height: 280vh;
+    background-color: #65238D;;
+}
+#produk p{
+    position: relative;
+    width: 495px;
+    height: 169px;
+    left: 600px;
+    top: 10px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 169px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.pox{
+    height: 0px;
+}
+.pox img{
+    position: relative;
+    width: 505px;
+    height: 421px;
+    left: 95px;
+    top: 96px;
+}
+#produk .pox p{
+    position: relative;
+    width: 614px;
+    height: 162px;
+    left: 687px;
+    top: -188px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 121.8%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+}
+.pox button{
+    position: relative;
+    top: -230px;
+    left: 690px;
+    width: 100px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #EC632D;
+}
+
+.poc{
+    height: 0px;
+}
+.poc img{
+    position: relative;
+    width: 505px;
+    height: 421px;
+    left: 755px;
+    top: 596px;
+}
+#produk .poc p{
+    position: relative;
+    width: 614px;
+    height: 162px;
+    left: 107px;
+    top: 308px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 121.8%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+}
+.poc button{
+    position: relative;
+    top: 290px;
+    left: 100px;
+    width: 100px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #EC632D;
+}
+
+.pok{
+    height: 0px;
+}
+.pok img{
+    position: relative;
+    width: 505px;
+    height: 421px;
+    left: 95px;
+    top: 1106px;
+}
+#produk .pok p{
+    position: relative;
+    width: 614px;
+    height: 162px;
+    left: 687px;
+    top: 788px;
+
+    font-family: Scheherazade;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 121.8%;
+    /* or 30px */
+
+
+    color: #FFFFFF;
+
+}
+.pok button{
+    position: relative;
+    top: 750px;
+    left: 690px;
+    width: 100px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #EC632D;
+}
+
+#testi{
+	height: 110vh;
+	background-color: #262626;
+}
+.swiper{
+	position: relative;
+	width: 512px;
+	height: 130px;
+	left: 30px;
+	top: 20px;
+
+	background: #743490;;
+	border-radius: 15px;
+}
+.swiper p{
+	position: relative;
+	width: 317px;
+	height: 100px;
+	left: 80px;
+	top: 0px;
+    text-align: center;
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 82px;
+	line-height: 100px;
+	/* identical to box height, or 122% */
+
+	letter-spacing: 0.1em;
+
+color: #F3EEE8;
+}
+
+.cbox p{
+	position: relative;
+	width: 93px;
+	height: 100px;
+	left: 190px;
+	top: -0px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 100px;
+	/* identical to box height, or 238% */
+
+	letter-spacing: 0.05em;
+
+color: #fff;
+}
+.cbox h1{
+	position: relative;
+	width: 383px;
+	height: 88px;
+	left: 190px;
+	top: -10px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 121.8%;
+	/* or 22px */
+
+
+	color: #fff;
+}
+.dbox p{
+	position: relative;
+	width: 93px;
+	height: 100px;
+	left: 190px;
+	top: 0px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 100px;
+	/* identical to box height, or 238% */
+
+	letter-spacing: 0.05em;
+
+color: #F3EEE8;
+}
+.dbox h1{
+	position: relative;
+	width: 383px;
+	height: 88px;
+	left: 190px;
+	top: 0px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 121.8%;
+	/* or 22px */
+
+
+	color: #fff;
+}
+.ebox p{
+	position: relative;
+	width: 93px;
+	height: 100px;
+	left: 900px;
+	top: -430px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 100px;
+	/* identical to box height, or 238% */
+
+	letter-spacing: 0.05em;
+
+	color: #F3EEE8;
+}
+.ebox h1{
+	position: relative;
+	width: 383px;
+	height: 88px;
+	left: 900px;
+	top: -440px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 121.8%;
+	/* or 22px */
+
+
+	color: #fff;
+}
+.gbox p{
+	position: relative;
+	width: 93px;
+	height: 100px;
+	left: 900px;
+	top: -220px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 100px;
+	/* identical to box height, or 238% */
+
+	letter-spacing: 0.05em;
+
+	color: #F3EEE8;
+}
+.gbox h1{
+	position: relative;
+	width: 383px;
+	height: 88px;
+	left: 900px;
+	top: -220px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 121.8%;
+	/* or 22px */
+
+
+	color: #fff;
+}
+
+.ebox{
+    height: 0vh;
+}
+.gbox{
+    height: 0px;
+}
+.x1{
+	position: relative;
+width: 226.52px;
+height: 115.33px;
+left: 597px;
+top: -200px;
+
+background: #161616;
+border-radius: 60px 60px 0px 0px;
+}
+.x1 h1{
+	position: relative;
+	width: 119px;
+	height: 27px;
+	left: 50px;
+	top: 30px;
+
+	font-family: Scheherazade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 121.8%;
+/* identical to box height, or 27px */
+color: #DFB474;
+}
+#benefit{
+    height: 100vh;
+    background-color:  #EC632D;
+}
